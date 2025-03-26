@@ -9,9 +9,8 @@ export const products = [
         discount: 12,
         finalPrice: 109999,
         images: [
-            'https://via.placeholder.com/300x300?text=Front+View',
-            'https://via.placeholder.com/300x300?text=Back+View',
-            'https://via.placeholder.com/300x300?text=Side+View'
+            'https://images.samsung.com/in/smartphones/galaxy-s23-ultra/images/galaxy-s23-ultra-highlights-kv.jpg',
+            'https://images.samsung.com/in/smartphones/galaxy-s23-ultra/images/galaxy-s23-ultra-highlights-back.jpg'
         ],
         stock: { available: true, quantity: 50 },
         rating: 4.8
@@ -26,8 +25,8 @@ export const products = [
         discount: 10,
         finalPrice: 143999,
         images: [
-            'https://via.placeholder.com/300x300?text=Front',
-            'https://via.placeholder.com/300x300?text=Back'
+            'https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-15-pro-finish-select-202309-6-7inch-naturaltitanium?wid=5120&hei=2880&fmt=p-jpg&qlt=80&.v=1693009279096',
+            'https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-15-pro-finish-select-202309-6-7inch-bluetitanium?wid=5120&hei=2880&fmt=p-jpg&qlt=80&.v=1693009278906'
         ],
         stock: { available: true, quantity: 30 },
         rating: 4.9
@@ -41,7 +40,10 @@ export const products = [
         price: 29999,
         discount: 15,
         finalPrice: 25499,
-        images: ['https://via.placeholder.com/300x300?text=Headphones'],
+        images: [
+            'https://m.media-amazon.com/images/I/61uEv9ZPZKL._SL1500_.jpg',
+            'https://m.media-amazon.com/images/I/71D9OsZoqaL._SL1500_.jpg'
+        ],
         stock: { available: true, quantity: 100 },
         rating: 4.7
     },
@@ -54,7 +56,9 @@ export const products = [
         price: 189999,
         discount: 18,
         finalPrice: 155999,
-        images: ['https://via.placeholder.com/300x300?text=TV'],
+        images: [
+            'https://www.lg.com/in/images/tvs/md07562586/gallery/OLED55C3PSA-D-01-v1.jpg'
+        ],
         stock: { available: true, quantity: 20 },
         rating: 4.6
     },
@@ -67,7 +71,9 @@ export const products = [
         price: 12999,
         discount: 20,
         finalPrice: 10399,
-        images: ['https://via.placeholder.com/300x300?text=Shoes'],
+        images: [
+            'https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/175e4ce0-0e1c-4d22-bc54-ba62d80a8ba6/air-zoom-pegasus-40-mens-road-running-shoes-zD8H1c.png'
+        ],
         stock: { available: true, quantity: 75 },
         rating: 4.5
     },
@@ -80,7 +86,9 @@ export const products = [
         price: 199999,
         discount: 14,
         finalPrice: 171999,
-        images: ['https://via.placeholder.com/300x300?text=Laptop'],
+        images: [
+            'https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/xps-notebooks/xps-15-9530/media-gallery/notebook-xps-9530-t-gallery-1.psd?fmt=png-alpha&pscan=auto&scl=1&wid=4560&hei=2400&qlt=100,0&resMode=sharp2&size=4560,2400'
+        ],
         stock: { available: false, quantity: 0 },
         rating: 4.8
     },
@@ -93,7 +101,9 @@ export const products = [
         price: 69999,
         discount: 25,
         finalPrice: 52499,
-        images: ['https://via.placeholder.com/300x300?text=Fridge'],
+        images: [
+            'https://images.samsung.com/is/image/samsung/in-side-by-side-refrigerator-rl53tgba4x1-rl53tgba4x1-gl-531001577?$650_519_PNG$'
+        ],
         stock: { available: true, quantity: 40 },
         rating: 4.4
     },
@@ -106,7 +116,9 @@ export const products = [
         price: 45999,
         discount: 8,
         finalPrice: 42399,
-        images: ['https://via.placeholder.com/300x300?text=Watch'],
+        images: [
+            'https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/watch-series9-aluminum-midnight-cell-45mm-s9?wid=2000&hei=2000&fmt=jpeg&qlt=95&.v=1693504587416'
+        ],
         stock: { available: true, quantity: 65 },
         rating: 4.9
     },
@@ -119,7 +131,9 @@ export const products = [
         price: 24999,
         discount: 15,
         finalPrice: 21249,
-        images: ['https://via.placeholder.com/300x300?text=Speaker'],
+        images: [
+            'https://assets.bose.com/content/dam/Bose_DAM/Web/consumer_electronics/global/products/speakers/soundlink_revolve_plus_speaker/product_silo_images/SoundLink_Revolve_Plus_Black_EC_hero.psd/jcr:content/renditions/cq5dam.web.1000.1000.png'
+        ],
         stock: { available: true, quantity: 80 },
         rating: 4.7
     },
@@ -132,7 +146,9 @@ export const products = [
         price: 49999,
         discount: 10,
         finalPrice: 44999,
-        images: ['https://via.placeholder.com/300x300?text=Tablet'],
+        images: [
+            'https://i02.appmifile.com/821_operator_in/22/06/2023/4c5c6a1a7d8a1c8d0b3c3e3e3e3e3e3e!800x800.png'
+        ],
         stock: { available: true, quantity: 90 },
         rating: 4.6
     }

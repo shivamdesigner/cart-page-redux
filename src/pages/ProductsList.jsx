@@ -3,11 +3,17 @@ import ProductCard from '../components/ProductCard'
 import { products } from '../demo';
 const ProductsList = () => {
   return (
-      <div style={{ display: 'flex',flexWrap:'wrap',gap:'30px' }}>
+    <div className='container'>
+
+
+      <div className='row gy-4' >
         {products.map((cur) => (
-          <ProductCard key={cur.id} productData={cur} />
+          <div className='col-lg-3' key={cur.id}>
+            <ProductCard productData={cur} />
+          </div>
         ))}
       </div>
+    </div>
   )
 }
 

@@ -13,7 +13,8 @@ export const products = [
             'https://images.samsung.com/in/smartphones/galaxy-s23-ultra/images/galaxy-s23-ultra-highlights-back.jpg'
         ],
         stock: { available: true, quantity: 50 },
-        rating: 4.8
+        rating: 4.8,
+        disruption:'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non voluptas reiciendis recusandae vitae dolore, odit laborum labore, alias fugit aut velit consequuntur omnis sit. Doloremque similique voluptatibus molestiae corrupti ipsum?'
     },
     {
         id: '2',
@@ -154,4 +155,3 @@ export const products = [
     }
 ];
 
-console.log(products);

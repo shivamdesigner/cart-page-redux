@@ -4,7 +4,12 @@ import { Link } from 'react-router-dom'
 
 const Navbar = () => {
   const { cart } = useSelector(state => state.cart)
-  console.log(cart.length)
+  // const { ApiCart ,loading} = useSelector(state => state.apiCart)
+  // const productData = ApiCart.products.length
+  // using vite
+  // import { Client } from 'appwrite';
+//   const client = new Client();
+// client.setProject('67e677f900113a0ecfb9');
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light sticky-top">
       <div className="container-fluid">
@@ -19,6 +24,9 @@ const Navbar = () => {
             </li>
             <li className="nav-item">
               <Link className="nav-link" to="/cart">cart <sup>({cart.length})</sup></Link>
+            </li>
+            <li className="nav-item ">
+              <Link className="nav-link" to="/api-cart">api cart <sup>(0)</sup></Link>
             </li>
           </ul>
           <form className="d-flex">

@@ -7,12 +7,14 @@ import ImgCustom from './ImgCustom';
 const ProductCard = ({ productData }) => {
   const {
     id,
+    title,
     name,
     category,
     brand,
     color = [],
     price,
     images = [],
+    image,
     rating,
     discount
   } = productData;
@@ -25,13 +27,14 @@ const finalPrice = Math.round(price - (price * (discount / 100)))
   }
   return (
     <>
-      <div className="card" key={id} >
+      <div className="card card-body" key={id} >
         <ImgCustom
-          src={images[0]}
+        className='mb-3'
+          src={images[0] || image}
           alt={name}
           width={300}
         />
-        <h3>{name}</h3>
+        <h3 className='fs-4 text-truncate'>{title || name}</h3>
         <p>Category: {category}</p>
         <p>Brand: {brand}</p>
         <p>Color: {Array.isArray(color) ? color.join(', ') : color}</p>
